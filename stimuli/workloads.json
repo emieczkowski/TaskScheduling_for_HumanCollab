@@ -1,0 +1,4624 @@
+{
+    "workloads": [
+        {
+            "orders": [
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 1,
+                    "timestamp": "12:00",
+                    "length1": 57,
+                    "length2": 30
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 2,
+                    "timestamp": "12:00",
+                    "length1": 46,
+                    "length2": 43
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 3,
+                    "timestamp": "12:00",
+                    "length1": 57,
+                    "length2": 30
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 4,
+                    "timestamp": "12:00",
+                    "length1": 46,
+                    "length2": 43
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 5,
+                    "timestamp": "12:00",
+                    "length1": 46,
+                    "length2": 43
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 6,
+                    "timestamp": "12:00",
+                    "length1": 46,
+                    "length2": 43
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 7,
+                    "timestamp": "12:00",
+                    "length1": 57,
+                    "length2": 30
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 8,
+                    "timestamp": "12:00",
+                    "length1": 46,
+                    "length2": 43
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 9,
+                    "timestamp": "12:00",
+                    "length1": 46,
+                    "length2": 43
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 10,
+                    "timestamp": "12:00",
+                    "length1": 57,
+                    "length2": 30
+                }
+            ],
+            "assignments": {
+                "Greedy": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        }
+                    ],
+                    "Time": 219
+                },
+                "Minmin": {
+                    "Chef1": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        }
+                    ],
+                    "Time": 206
+                },
+                "Maxmin": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        }
+                    ],
+                    "Time": 232
+                },
+                "Optimal": {
+                    "Chef1": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        }
+                    ],
+                    "Time": 206
+                },
+                "Worst": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 46,
+                            "length2": 43
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 57,
+                            "length2": 30
+                        }
+                    ],
+                    "Chef2": [],
+                    "Time": 504
+                }
+            }
+        },
+        {
+            "orders": [
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 1,
+                    "timestamp": "12:00",
+                    "length1": 52,
+                    "length2": 31
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 2,
+                    "timestamp": "12:00",
+                    "length1": 39,
+                    "length2": 47
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 3,
+                    "timestamp": "12:00",
+                    "length1": 39,
+                    "length2": 47
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 4,
+                    "timestamp": "12:00",
+                    "length1": 39,
+                    "length2": 47
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 5,
+                    "timestamp": "12:00",
+                    "length1": 39,
+                    "length2": 47
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 6,
+                    "timestamp": "12:00",
+                    "length1": 39,
+                    "length2": 47
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 7,
+                    "timestamp": "12:00",
+                    "length1": 52,
+                    "length2": 31
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 8,
+                    "timestamp": "12:00",
+                    "length1": 39,
+                    "length2": 47
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 9,
+                    "timestamp": "12:00",
+                    "length1": 52,
+                    "length2": 31
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 10,
+                    "timestamp": "12:00",
+                    "length1": 39,
+                    "length2": 47
+                }
+            ],
+            "assignments": {
+                "Greedy": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        }
+                    ],
+                    "Time": 208
+                },
+                "Minmin": {
+                    "Chef1": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        }
+                    ],
+                    "Time": 195
+                },
+                "Maxmin": {
+                    "Chef1": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        }
+                    ],
+                    "Time": 221
+                },
+                "Optimal": {
+                    "Chef1": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        }
+                    ],
+                    "Time": 195
+                },
+                "Worst": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 52,
+                            "length2": 31
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 39,
+                            "length2": 47
+                        }
+                    ],
+                    "Chef2": [],
+                    "Time": 429
+                }
+            }
+        },
+        {
+            "orders": [
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 1,
+                    "timestamp": "12:00",
+                    "length1": 54,
+                    "length2": 29
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 2,
+                    "timestamp": "12:00",
+                    "length1": 49,
+                    "length2": 41
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 3,
+                    "timestamp": "12:00",
+                    "length1": 49,
+                    "length2": 41
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 4,
+                    "timestamp": "12:00",
+                    "length1": 54,
+                    "length2": 29
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 5,
+                    "timestamp": "12:00",
+                    "length1": 49,
+                    "length2": 41
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 6,
+                    "timestamp": "12:00",
+                    "length1": 54,
+                    "length2": 29
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 7,
+                    "timestamp": "12:00",
+                    "length1": 49,
+                    "length2": 41
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 8,
+                    "timestamp": "12:00",
+                    "length1": 54,
+                    "length2": 29
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 9,
+                    "timestamp": "12:00",
+                    "length1": 54,
+                    "length2": 29
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 10,
+                    "timestamp": "12:00",
+                    "length1": 49,
+                    "length2": 41
+                }
+            ],
+            "assignments": {
+                "Greedy": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        }
+                    ],
+                    "Time": 210
+                },
+                "Minmin": {
+                    "Chef1": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        }
+                    ],
+                    "Time": 196
+                },
+                "Maxmin": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        }
+                    ],
+                    "Time": 222
+                },
+                "Optimal": {
+                    "Chef1": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        }
+                    ],
+                    "Time": 196
+                },
+                "Worst": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 54,
+                            "length2": 29
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 49,
+                            "length2": 41
+                        }
+                    ],
+                    "Chef2": [],
+                    "Time": 515
+                }
+            }
+        },
+        {
+            "orders": [
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 1,
+                    "timestamp": "12:00",
+                    "length1": 45,
+                    "length2": 11
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 2,
+                    "timestamp": "12:00",
+                    "length1": 44,
+                    "length2": 56
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 3,
+                    "timestamp": "12:00",
+                    "length1": 44,
+                    "length2": 56
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 4,
+                    "timestamp": "12:00",
+                    "length1": 44,
+                    "length2": 56
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 5,
+                    "timestamp": "12:00",
+                    "length1": 44,
+                    "length2": 56
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 6,
+                    "timestamp": "12:00",
+                    "length1": 44,
+                    "length2": 56
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 7,
+                    "timestamp": "12:00",
+                    "length1": 45,
+                    "length2": 11
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 8,
+                    "timestamp": "12:00",
+                    "length1": 44,
+                    "length2": 56
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 9,
+                    "timestamp": "12:00",
+                    "length1": 45,
+                    "length2": 11
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 10,
+                    "timestamp": "12:00",
+                    "length1": 44,
+                    "length2": 56
+                }
+            ],
+            "assignments": {
+                "Greedy": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        }
+                    ],
+                    "Time": 235
+                },
+                "Minmin": {
+                    "Chef1": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        }
+                    ],
+                    "Time": 201
+                },
+                "Maxmin": {
+                    "Chef1": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        }
+                    ],
+                    "Time": 221
+                },
+                "Optimal": {
+                    "Chef1": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        }
+                    ],
+                    "Time": 201
+                },
+                "Worst": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 45,
+                            "length2": 11
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 44,
+                            "length2": 56
+                        }
+                    ],
+                    "Chef2": [],
+                    "Time": 443
+                }
+            }
+        },
+        {
+            "orders": [
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 1,
+                    "timestamp": "12:00",
+                    "length1": 57,
+                    "length2": 33
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 2,
+                    "timestamp": "12:00",
+                    "length1": 57,
+                    "length2": 33
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 3,
+                    "timestamp": "12:00",
+                    "length1": 36,
+                    "length2": 44
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 4,
+                    "timestamp": "12:00",
+                    "length1": 36,
+                    "length2": 44
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 5,
+                    "timestamp": "12:00",
+                    "length1": 57,
+                    "length2": 33
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 6,
+                    "timestamp": "12:00",
+                    "length1": 36,
+                    "length2": 44
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 7,
+                    "timestamp": "12:00",
+                    "length1": 57,
+                    "length2": 33
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 8,
+                    "timestamp": "12:00",
+                    "length1": 57,
+                    "length2": 33
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 9,
+                    "timestamp": "12:00",
+                    "length1": 57,
+                    "length2": 33
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 10,
+                    "timestamp": "12:00",
+                    "length1": 57,
+                    "length2": 33
+                }
+            ],
+            "assignments": {
+                "Greedy": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        }
+                    ],
+                    "Time": 209
+                },
+                "Minmin": {
+                    "Chef1": [
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        }
+                    ],
+                    "Time": 198
+                },
+                "Maxmin": {
+                    "Chef1": [
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        }
+                    ],
+                    "Time": 220
+                },
+                "Optimal": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        }
+                    ],
+                    "Time": 198
+                },
+                "Worst": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 36,
+                            "length2": 44
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 57,
+                            "length2": 33
+                        }
+                    ],
+                    "Chef2": [],
+                    "Time": 507
+                }
+            }
+        },
+        {
+            "orders": [
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 1,
+                    "timestamp": "12:00",
+                    "length1": 59,
+                    "length2": 19
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 2,
+                    "timestamp": "12:00",
+                    "length1": 59,
+                    "length2": 19
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 3,
+                    "timestamp": "12:00",
+                    "length1": 50,
+                    "length2": 46
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 4,
+                    "timestamp": "12:00",
+                    "length1": 50,
+                    "length2": 46
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 5,
+                    "timestamp": "12:00",
+                    "length1": 50,
+                    "length2": 46
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 6,
+                    "timestamp": "12:00",
+                    "length1": 59,
+                    "length2": 19
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 7,
+                    "timestamp": "12:00",
+                    "length1": 59,
+                    "length2": 19
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 8,
+                    "timestamp": "12:00",
+                    "length1": 59,
+                    "length2": 19
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 9,
+                    "timestamp": "12:00",
+                    "length1": 50,
+                    "length2": 46
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 10,
+                    "timestamp": "12:00",
+                    "length1": 50,
+                    "length2": 46
+                }
+            ],
+            "assignments": {
+                "Greedy": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        }
+                    ],
+                    "Time": 209
+                },
+                "Minmin": {
+                    "Chef1": [
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        }
+                    ],
+                    "Time": 187
+                },
+                "Maxmin": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        }
+                    ],
+                    "Time": 227
+                },
+                "Optimal": {
+                    "Chef1": [
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        }
+                    ],
+                    "Time": 187
+                },
+                "Worst": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 19
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 50,
+                            "length2": 46
+                        }
+                    ],
+                    "Chef2": [],
+                    "Time": 545
+                }
+            }
+        },
+        {
+            "orders": [
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 1,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 52
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 2,
+                    "timestamp": "12:00",
+                    "length1": 13,
+                    "length2": 12
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 3,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 52
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 4,
+                    "timestamp": "12:00",
+                    "length1": 13,
+                    "length2": 12
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 5,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 52
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 6,
+                    "timestamp": "12:00",
+                    "length1": 13,
+                    "length2": 12
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 7,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 52
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 8,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 52
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 9,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 52
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 10,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 52
+                }
+            ],
+            "assignments": {
+                "Greedy": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        }
+                    ],
+                    "Time": 220
+                },
+                "Minmin": {
+                    "Chef1": [
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        },
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        }
+                    ],
+                    "Time": 232
+                },
+                "Maxmin": {
+                    "Chef1": [
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        }
+                    ],
+                    "Time": 208
+                },
+                "Optimal": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        }
+                    ],
+                    "Time": 208
+                },
+                "Worst": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 12
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 56,
+                            "length2": 52
+                        }
+                    ],
+                    "Chef2": [],
+                    "Time": 431
+                }
+            }
+        },
+        {
+            "orders": [
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 1,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 57
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 2,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 57
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 3,
+                    "timestamp": "12:00",
+                    "length1": 32,
+                    "length2": 21
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 4,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 57
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 5,
+                    "timestamp": "12:00",
+                    "length1": 32,
+                    "length2": 21
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 6,
+                    "timestamp": "12:00",
+                    "length1": 32,
+                    "length2": 21
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 7,
+                    "timestamp": "12:00",
+                    "length1": 32,
+                    "length2": 21
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 8,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 57
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 9,
+                    "timestamp": "12:00",
+                    "length1": 32,
+                    "length2": 21
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 10,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 57
+                }
+            ],
+            "assignments": {
+                "Greedy": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        }
+                    ],
+                    "Time": 219
+                },
+                "Minmin": {
+                    "Chef1": [
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        }
+                    ],
+                    "Time": 232
+                },
+                "Maxmin": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        }
+                    ],
+                    "Time": 200
+                },
+                "Optimal": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        }
+                    ],
+                    "Time": 200
+                },
+                "Worst": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 8,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        },
+                        {
+                            "id": 9,
+                            "type": "B",
+                            "length1": 32,
+                            "length2": 21
+                        },
+                        {
+                            "id": 10,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 57
+                        }
+                    ],
+                    "Chef2": [],
+                    "Time": 440
+                }
+            }
+        },
+        {
+            "orders": [
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 1,
+                    "timestamp": "12:00",
+                    "length1": 38,
+                    "length2": 57
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 2,
+                    "timestamp": "12:00",
+                    "length1": 38,
+                    "length2": 57
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 3,
+                    "timestamp": "12:00",
+                    "length1": 13,
+                    "length2": 11
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 4,
+                    "timestamp": "12:00",
+                    "length1": 38,
+                    "length2": 57
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 5,
+                    "timestamp": "12:00",
+                    "length1": 38,
+                    "length2": 57
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 6,
+                    "timestamp": "12:00",
+                    "length1": 38,
+                    "length2": 57
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 7,
+                    "timestamp": "12:00",
+                    "length1": 38,
+                    "length2": 57
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 8,
+                    "timestamp": "12:00",
+                    "length1": 38,
+                    "length2": 57
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 9,
+                    "timestamp": "12:00",
+                    "length1": 13,
+                    "length2": 11
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 10,
+                    "timestamp": "12:00",
+                    "length1": 38,
+                    "length2": 57
+                }
+            ],
+            "assignments": {
+                "Greedy": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 11
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 11
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        }
+                    ],
+                    "Time": 216
+                },
+                "Minmin": {
+                    "Chef1": [
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 11
+                        },
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 11
+                        },
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        }
+                    ],
+                    "Time": 203
+                },
+                "Maxmin": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 11
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 11
+                        }
+                    ],
+                    "Time": 193
+                },
+                "Optimal": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 11
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 11
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        }
+                    ],
+                    "Time": 193
+                },
+                "Worst": {
+                    "Chef1": [],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 11
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 6,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 7,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 13,
+                            "length2": 11
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 38,
+                            "length2": 57
+                        }
+                    ],
+                    "Time": 478
+                }
+            }
+        },
+        {
+            "orders": [
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 1,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 48
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 2,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 48
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 3,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 48
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 4,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 48
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 5,
+                    "timestamp": "12:00",
+                    "length1": 22,
+                    "length2": 21
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 6,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 48
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 7,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 48
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 8,
+                    "timestamp": "12:00",
+                    "length1": 22,
+                    "length2": 21
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 9,
+                    "timestamp": "12:00",
+                    "length1": 56,
+                    "length2": 48
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 10,
+                    "timestamp": "12:00",
+                    "length1": 22,
+                    "length2": 21
+                }
+            ],
+            "assignments": {
+                "Greedy": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        }
+                    ],
+                    "Time": 224
+                },
+                "Minmin": {
+                    "Chef1": [
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        },
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        }
+                    ],
+                    "Time": 234
+                },
+                "Maxmin": {
+                    "Chef1": [
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        }
+                    ],
+                    "Time": 213
+                },
+                "Optimal": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        }
+                    ],
+                    "Time": 213
+                },
+                "Worst": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 2,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 3,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 4,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 5,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 56,
+                            "length2": 48
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 22,
+                            "length2": 21
+                        }
+                    ],
+                    "Chef2": [],
+                    "Time": 458
+                }
+            }
+        },
+        {
+            "orders": [
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 1,
+                    "timestamp": "12:00",
+                    "length1": 59,
+                    "length2": 57
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 2,
+                    "timestamp": "12:00",
+                    "length1": 18,
+                    "length2": 23
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 3,
+                    "timestamp": "12:00",
+                    "length1": 18,
+                    "length2": 23
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 4,
+                    "timestamp": "12:00",
+                    "length1": 18,
+                    "length2": 23
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 5,
+                    "timestamp": "12:00",
+                    "length1": 59,
+                    "length2": 57
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 6,
+                    "timestamp": "12:00",
+                    "length1": 59,
+                    "length2": 57
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 7,
+                    "timestamp": "12:00",
+                    "length1": 59,
+                    "length2": 57
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 8,
+                    "timestamp": "12:00",
+                    "length1": 18,
+                    "length2": 23
+                },
+                {
+                    "name": "Burger",
+                    "type": "A",
+                    "id": 9,
+                    "timestamp": "12:00",
+                    "length1": 59,
+                    "length2": 57
+                },
+                {
+                    "name": "Pizza",
+                    "type": "B",
+                    "id": 10,
+                    "timestamp": "12:00",
+                    "length1": 18,
+                    "length2": 23
+                }
+            ],
+            "assignments": {
+                "Greedy": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        }
+                    ],
+                    "Time": 206
+                },
+                "Minmin": {
+                    "Chef1": [
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        }
+                    ],
+                    "Time": 217
+                },
+                "Maxmin": {
+                    "Chef1": [
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        }
+                    ],
+                    "Time": 194
+                },
+                "Optimal": {
+                    "Chef1": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        }
+                    ],
+                    "Chef2": [
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        }
+                    ],
+                    "Time": 194
+                },
+                "Worst": {
+                    "Chef1": [],
+                    "Chef2": [
+                        {
+                            "id": 1,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 2,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 3,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 4,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 5,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 6,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 7,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 8,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        },
+                        {
+                            "id": 9,
+                            "type": "A",
+                            "length1": 59,
+                            "length2": 57
+                        },
+                        {
+                            "id": 10,
+                            "type": "B",
+                            "length1": 18,
+                            "length2": 23
+                        }
+                    ],
+                    "Time": 400
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the CogSci paper below."
+title: "People Intuitively Schedule Tasks to Improve Collective Efficiency"
+type: software
+version: 1.0.0
+date-released: 2026-05-05
+repository-code: "https://github.com/emieczkowski/TaskScheduling_for_HumanCollab"
+license: MIT
+authors:
+  - family-names: Mieczkowski
+    given-names: E.
+  - family-names: Li
+    given-names: C.
+  - family-names: "Vélez"
+    given-names: N.
+  - family-names: Griffiths
+    given-names: T. L.
+preferred-citation:
+  type: paper-conference
+  title: "People intuitively schedule tasks to improve collective efficiency"
+  year: 2026
+  volume: 48
+  collection-title: "Proceedings of the Annual Meeting of the Cognitive Science Society"
+  authors:
+    - family-names: Mieczkowski
+      given-names: E.
+    - family-names: Li
+      given-names: C.
+    - family-names: "Vélez"
+      given-names: N.
+    - family-names: Griffiths
+      given-names: T. L.
